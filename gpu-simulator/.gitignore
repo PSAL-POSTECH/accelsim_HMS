@@ -1,0 +1,7 @@
+bin/
+build/
+gpgpu-sim/
+error.txt
+compile_commands.json
+.vim/
+.cache/
