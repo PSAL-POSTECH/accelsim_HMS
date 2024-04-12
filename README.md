@@ -85,6 +85,5 @@ Bibtex entry:
   volume={},
   number={},
   pages={139-155},
-  keywords={Performance evaluation;Costs;Power demand;Instruction sets;Memory management;Random access memory;Graphics processing units;Graphics processing unit (GPU);Storage-Class Memory (SCM);DRAM cache;3D-stacked memory;Cache bypassing},
   doi={10.1109/HPCA57654.2024.00021}}
  ```
