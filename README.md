@@ -64,6 +64,8 @@ export TARGET_TRACE_DIR=$ACCELSIM_ROOT_DIR/gpgpu-sim/example_traces/color_maxmin
 In this repository, we provide only one example trace from kernel-1 of coloring_maxmin workload in the Pannotia benchmark suite (available at https://github.com/accel-sim/gpu-app-collection/tree/release).
 Trace files for other kernels can be generated using the tracer for Accel-sim (see https://accel-sim.github.io/).
 
+To generate the `num_pages.txt` file, which contains the number of pages for the target application, use the `generate_pagetable.ipynb` notebook. This notebook generates the `num_pages.txt` file from the trace files. Set the `target_traces_dir` variable in the `generate_pagetable.ipynb` notebook to the directory containing the trace files of the target application.
+
 Finally, you can run the simulation as follows:
 ```
 cd gpgpu-sim
